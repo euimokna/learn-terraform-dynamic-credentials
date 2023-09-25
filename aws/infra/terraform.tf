@@ -6,6 +6,7 @@ terraform {
     }
   }
   cloud {
+    organization = "DevOpsProduct"  
     workspaces {
       name = "learn-terraform-dynamic-credentials"
     }
